@@ -1,0 +1,2 @@
+# React useEffect: Incorrect State Modification
+This example demonstrates an uncommon error in React where the state is modified directly within the useEffect hook without using the setState function. This leads to unexpected behavior because the component does not re-render when the state changes.  The solution shows the correct way to update the state using the provided `setCount` function.
